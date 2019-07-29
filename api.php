@@ -1,7 +1,7 @@
 <?php
 $array = array();
-echo "Hello world";
+echo "Hello world \n";
 for ($x = 0; $x <= 10; $x++) {
     array_push($array, rand());
 };
-echo $array;
+echo json_encode(($array));
